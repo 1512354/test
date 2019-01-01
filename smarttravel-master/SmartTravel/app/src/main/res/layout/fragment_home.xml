@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".HomeFragment">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <!--Title App-->
+
+            <ImageView
+                android:background="#9118ef"
+                android:id="@+id/imgBanner"
+                android:scaleType="centerCrop"
+                android:src="@drawable/seoul"
+                android:layout_width="match_parent"
+                android:layout_height="300dp" />
+
+
+
+            <TextView
+                android:id="@+id/txtST"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgBanner"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="-81dp"
+                android:text="FINDING YOURSELF"
+                android:textColor="#fff"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/txtIntro"
+                android:layout_below="@+id/txtST"
+                android:text="Discover and book amazing tour !"
+                android:textColor="#fff"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <!-- TODO: Chip view group -->
+            <TextView
+                android:text="Discover your interests"
+                android:textSize="22sp"
+                android:layout_marginTop="10dp"
+                android:textColor="#8080f4"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/txtDiscover"
+                android:layout_below="@+id/imgBanner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <HorizontalScrollView
+                android:id="@+id/horizontalscroll"
+                android:scrollbars="none"
+                android:padding="10dp"
+                android:layout_below="@+id/txtDiscover"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.robertlevonyan.views.chip.Chip
+                        android:id="@+id/chip2"
+                        app:mcv_closable="true"
+                        app:mcv_selectable="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:mcv_chipText="Adventure"
+                        app:mcv_selectedBackgroundColor="#f61a6b"
+                        app:mcv_selectedTextColor = "#643bec"
+                        app:mcv_backgroundColor ="#39f2da"/>
+
+                    <com.robertlevonyan.views.chip.Chip
+                        android:id="@+id/chip1"
+                        android:layout_marginLeft="10dp"
+                        app:mcv_closable="true"
+                        app:mcv_selectable="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:mcv_chipText="Cities"
+                        app:mcv_selectedBackgroundColor="#f61a6b"
+                        app:mcv_selectedTextColor = "#643bec"
+                        app:mcv_backgroundColor ="#39f2da"
+                        />
+
+                    <com.robertlevonyan.views.chip.Chip
+                        android:id="@+id/chip3"
+                        android:layout_marginLeft="10dp"
+                        app:mcv_closable="true"
+                        app:mcv_selectable="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:mcv_chipText="Road Trips"
+                        app:mcv_selectedBackgroundColor="#f61a6b"
+                        app:mcv_selectedTextColor = "#643bec"
+                        app:mcv_backgroundColor ="#39f2da"/>
+                    <com.robertlevonyan.views.chip.Chip
+                        android:id="@+id/chip4"
+                        android:layout_marginLeft="10dp"
+                        app:mcv_closable="true"
+                        app:mcv_selectable="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:mcv_chipText="Food Drink"
+                        app:mcv_selectedBackgroundColor="#f61a6b"
+                        app:mcv_selectedTextColor = "#643bec"
+                        app:mcv_backgroundColor ="#39f2da"/>
+                    <com.robertlevonyan.views.chip.Chip
+                        android:id="@+id/chip5"
+                        android:layout_marginLeft="10dp"
+                        app:mcv_closable="true"
+                        app:mcv_selectable="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:mcv_chipText="Coasts Island"
+                        app:mcv_selectedBackgroundColor="#f61a6b"
+                        app:mcv_selectedTextColor = "#643bec"
+                        app:mcv_backgroundColor ="#39f2da" />
+
+
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <!-- TODO: Slider horizontal -->
+            <TextView
+                android:id="@+id/txtPopularDestination"
+                android:layout_below="@+id/horizontalscroll"
+                android:text="Popular Destination"
+                android:textSize="22sp"
+                android:layout_marginLeft="10dp"
+                android:textColor="#8080f4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/txtAllPopularDestination"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/horizontalscroll"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                android:text="All"
+                android:textColor="#8080f4"
+                android:textSize="22sp" />
+
+            <android.support.v7.widget.RecyclerView
+                android:layout_below="@+id/txtPopularDestination"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/recyclerviewDestination"
+                android:orientation="horizontal">
+            </android.support.v7.widget.RecyclerView>
+            <!-- TODO: Popular Activities Slider horizontal -->
+            <TextView
+                android:id="@+id/txtPopularActivities"
+                android:layout_below="@+id/recyclerviewDestination"
+                android:text="Popular Activities"
+                android:textSize="22sp"
+                android:layout_marginLeft="10dp"
+                android:textColor="#8080f4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <android.support.v7.widget.RecyclerView
+            android:layout_below="@+id/txtPopularActivities"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="64dp"
+            android:id="@+id/recyclerviewActivities"
+            android:orientation="horizontal">
+            </android.support.v7.widget.RecyclerView>
+
+
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+
+
+
+
+
+
+
+
+</android.support.v4.widget.NestedScrollView>

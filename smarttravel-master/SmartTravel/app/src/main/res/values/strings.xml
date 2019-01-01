@@ -1,0 +1,162 @@
+<resources>
+    <string name="app_name">SmartTravel</string>
+    <string name="title_home">Home</string>
+    <string name="title_discover">Discover</string>
+    <string name="title_destination">Destination</string>
+    <string name="title_cart">Cart</string>
+    <string name="title_account">Account</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="contentbody1">Go beyond the screen and Ride The Movies™ at Universal Studios Singapore™. Experience cutting-edge rides,shows, and attractions based on your favorite blockbuster films and television series, including Puss In Boots’ Giant Journey,Battlestar Galactica: HUMAN vs. CYLON™, TRANSFORMERS The Ride: The Ultimate 3D Battle, Jurassic Park Rapids Adventure™,Sesame Street Spaghetti Space Chase and more! Universal Studios Singapore™ is sure to indulge the thrill-seeker or movie buff severy fantasy</string>
+
+    <string name="intro">
+        <li>Go beyond the screen and Ride The Movies at Universal Studios Singapore. Experience cutting-edge rides, shows, and attractions based on your favorite blockbuster films and television series!</li>
+        \n
+        <li>Book your Universal Studios Singapore 1 Day Pass and have an enjoyable day for all, to entertain the young (and the young at heart!)</li>
+        \n
+        <li>Enjoy VIP access to the rides and shows with a Universal Studios Singapore™ VIP Tour Experience</li>
+        \n
+        <li>Enjoy easy and convenient transfers from your hotel in the city with a Universal Studios Singapore transfer</li>
+        \n
+        <li>Enjoy convenient and affordable transportation into Sentosa by purchasing a Sentosa Express Ticket!</li>
+        \n
+        <li>Read Klooks Universal Studios Singapore guide to discover how you can maximize your day out at the park!</li>
+        \n
+    </string>
+
+    <string name="inclusiveof">
+       <li>1 Universal Studios Singapore Express Pass (please note: this grants you a one time skip-the-line access for the attractions listed below)</li>
+        \n
+        \n
+        <b>Covered Attractions:</b>
+        \n
+        \n
+        <li>Pantages Hollywood Theater</li>
+        \n
+        <li>Lights, Camera, Action! Hosted by Steven Spielberg</li>
+        \n
+        <li>Sesame Street Spaghetti Space Chase</li>
+        \n
+        <li>TRANSFORMERS The Ride: The Ultimate 3D Battle</li>
+        \n
+        <li>Accelerator</li>
+        \n
+        <li>Revenge of the Mummy</li>
+        \n
+        <li>Battlestar Galactica: HUMAN</li>
+        \n
+        <li>Battlestar Galactica: CYCLON</li>
+        \n
+        <li>Jurassic Park Rapids Adventure</li>
+        \n
+        <li>TRANSFORMERS The Ride: The Ultimate 3D Battle</li>
+        \n
+        <li>WaterWorld</li>
+        \n
+        <li>Shrek 4-D Adventure</li>
+    </string>
+
+
+    <string name="confirmation1">
+        <li>You will receive a confirmation email and voucher instantly after booking</li>
+        \n
+        <li>In the event that you do not receive an email from us, please check your Spam folder or notify us via email</li>
+    </string>
+
+    <string name="additional_info">
+        <li>Child ticket: Age 4-12 </li>
+         \n
+        <li>Senior ticket: Age 60+</li>
+        \n
+        <li>Children aged 0-3 can enter the park for free</li>
+        \n
+        <li>These tickets are for tourists only</li>
+    </string>
+    <string name="insider">
+        <li>Be sure to check out the show schedule once you arrive onsite. We recommend that you plan your itinerary around the Waterworld show timings. Weekend visitors should also plan around the magical Hollywood Dreams Parade and the incredible fireworks of the Lake Hollywood Spectacular!</li>
+        \n
+        <li>Park admission is valid for an entire day, you can even leave and re-enter but be sure to get a hand stamp at the exit</li>
+        \n
+        <li>Express passes can be bought at any merchandise store within the park if you wish to skip the line</li>
+    </string>
+    <string name="itinerary">
+        <li>9:00am meet up with your guide</li>
+        \n
+        <li>Depart from Lucerme to Interlaken</li>
+        \n
+        <li>After an orientation stop, drive to Grindelwald</li>
+        \n
+        <li>Free time at Grindelwald</li>
+        \n
+        <li>Take public train back to Interlaken</li>
+        \n
+        <li>Free time at Interlaken</li>
+        \n
+        <li>7:00pm return to Lucerne Train Station</li>
+    </string>
+
+    <string name="intro_discover">
+        The Rockies are a great reason to explore the Canadian West, but why stop there? We asked that question, then answered it with this trip — a sprawling, nature-rich mini-epic that melds some of Canada’s best national parks with time on the mist-shrouded shores of Vancouver Island. Find yourself face-to-face with moose, deer, and maybe even a bear on this trip loaded with diverse experiences — whale-watching, glacier hikes, hot springs, and much, much more — you’ll stuff a lifetime’s worth of adventure into the space of a mere two weeks.
+    </string>
+
+    <string name="what_include">
+        <li>Entrance fees to all national and provincial parks with walking and hiking excursions</li>
+        \n
+        <li>Stop at Columbia Icefield</li>
+        \n
+        <li>Half-day canoeing excursion in Wells Gray PP</li>
+        \n
+        <li>Half-day whale watching tour by Zodiac</li>
+        \n
+        <li>Self-inflating mattresses and dome tents while camping</li>
+        \n
+        <li>All transport between destinations and to/from included activities</li>
+        \n
+    </string>
+
+    <string name="highlights">
+        <li>Enjoy the gorgeous scenery of western canada</li>
+        \n
+        <li>Create a postcard-perfect photo in jasper national park</li>
+        \n
+        <li>Sip lattes and people-watch in vancouver</li>
+        \n
+        <li>Be awed by the mighty rockies</li>
+        \n
+        <li>Get up close and personal with canadian wildlife.</li>
+        \n
+    </string>
+
+    <string name="itinerary_discover">
+        <li>Day 1 Calgary Arrive at any time. Included Activities: Arrival Day and Welcome Meeting</li>
+        \n
+        <li>Day 2 Calgary/Banff (1L) Discover the beautiful town of Banff view wildlife, take a gondola ride, or hike up a mountain for spectacular views. Transport: Private Vehicle (2.00-3.00 hours)</li>
+        \n
+        <li>Day 3 Banff/Lake Louise (1B, 1L, 1D) Gaze at the beauty of Lake Louise, and hike to the Agnes Lake Tea House or along the Six Glaciers Trail. Included Activities: Lake Agnes Tea House Hike Transport: Private Vehicle (1.50 hour(s), 90km)</li>
+        \n
+        <li>Day 4 Lake Louise (1B, 1L, 1D) Head into Yoho National Park and visit the mighty Tekakkaw Falls and Emerald Lake. Opt to go whitewater rafting in the afternoon. Included Activities: Takkakaw Falls Visit Emerald Lake Hike Transport: Private Vehicle (1.00-2.00 hours) Private Vehicle (1.00 hour(s))</li>
+        \n
+        <li>Day 5 Lake Louise,Jasper (1B, 1L, 1D) To travel the icefield parkway is to experience one of Canada s national treasures and most rewarding destinations. Stretching 230km (155 mi) between Lake Louise and the town of Jasper, the parkway offers easy access to one of the most spectacular mountain landscapes on Earth. This is a wonderful journey through the heart of the Canadian Rockies, a vast wilderness of magnificent peaks, pristine mountain lakes, and broad sweeping valleys. Stop at Columbia Icefield for an unforgettable experience. Continue on to Jasper. In the evening, set up your camp and enjoy a nice warm campfire.Included Activities: Peyto Lake Visit Columbia Icefields Center Visit Transport: Private Vehicle(9.00-10.00 hours)</li>
+        \n
+        <li>Day 6 Jasper (1B, 1L, 1D) Stroll through Maligne Canyon and explore the surrounding area of Jasper. In the afternoon, head back to check out the lively mountain town. Included Activities: Maligne Canyon Hike</li>
+        \n
+        <li>Day 7 Jasper/Wells Gray Park (1B, 1L, 1D) Stop at Mount Robson, the tallest mountain in the Rockies, en route to Wells Gray PP. Included Activities: Mount Robson Visit Transport: Private Vehicle (10.00 hour(s), 380km)</li>
+        \n
+         <li>Day 8 Wells Gray Park (1B, 1L, 1D) Head out for an exciting day of canoeing in the Canadian wilderness. Stop at some of the most beautiful waterfalls in the park, including the world famous Helmcken Falls. Included Activities: Canoeing in Wells Gray PP Dawson Falls Visit Helmcken Falls Visit</li>
+        \n
+         <li>Day 9 Wells Gray Park/Whistler (1B, 1L, 1D) Drive through dense woods into the Canadian desert and finally to the beautiful coastal mountains. Included Activities: Marble Canyon Visit Transport: Estimated Travel Time to Whistler: 10 hrs (including lunch stop in Marble Canyon Provincial Park) Private Vehicle</li>
+        \n
+         <li>Day 10 Whistler (1B, 1L) Wake up in one of Canada s greatest natural playgrounds. Go for a hike in the morning, then enjoy a free afternoon to relax or explore more of Whistler and its surroundings. Additional Notes: You can opt out of today s hike if you d prefer to spend the whole day exploring other parts of Whistler. Included Activities: Hiking</li>
+        \n
+         <li>Day 11 Whistler/Tofino (1B, 1D) In the morning, drive a short distance to Vancouver. Taking a ferry to Nanaimo on Vancouver Island is an exciting part of the adventure of getting here. BC Ferries offers an outstanding service that travels through some of the most beautiful scenery in the world. In the afternoon, continue to drive to Tofino, just in time for sunset.Included Activities: The Old Country Market MacMillan Provincial Park Visit Transport: Private Vehicle Ferry (1.75-2.00 hours) Private Vehicle</li>
+        \n
+         <li>Day 12 Tofino (1B, 1L, 1D) Search for orcas on a half_day whale watching tour by Zodiac. In the afternoon, enjoy free time and take in Tofino s unique blend of fisher-meets-surfer vibe. Included Activities: Whale Watching Zodiac Tour</li>
+        \n
+        <li>Day 13 Tofino/Victoria (1B, 1L) Travel south down Vancouver Island to British Columbia s capital, Victoria. Take a stroll around the city and absorb the West Coast vibe. Included Activities: The Old Country Market Transport: Private Vehicle (6.00 hour(s), 325km)</li>
+        \n
+        <li>Day 14 Victoria/Vancouver (1B) Please note this trip ends on arrival to Vancouver. If you are interested in exploring Vancouver and its nearby attractions, it is recommended you book additional post-trip accommodation nights. Included Activities: Departure Day (Activities) Transport: Private Vehicle (0.50-0.75 hours) Ferry (2.00 hour(s)) Private Vehicle (1.00 hour(s))</li>
+    </string>
+    <string name="about_me_n_hello_world_n_my_name_is_teo">About me \n    My name is Teo</string>
+
+</resources>

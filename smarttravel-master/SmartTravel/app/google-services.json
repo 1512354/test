@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "840138696008",
+    "firebase_url": "https://smarttravel-5b71d.firebaseio.com",
+    "project_id": "smarttravel-5b71d",
+    "storage_bucket": "smarttravel-5b71d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:840138696008:android:7a8a02ebf9afb5d8",
+        "android_client_info": {
+          "package_name": "com.example.lenovo.smarttravel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "840138696008-f09ds74g8i5hviojlgrq6roah4haqf37.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBm3Xl5hiZuVOXqmrcyLEZsSAaopldftKs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

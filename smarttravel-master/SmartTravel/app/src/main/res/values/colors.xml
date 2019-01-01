@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#7b4bff</color>
+    <color name="colorPrimaryDark">#6539ba</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="bgBottomNavigation">#7b4bff</color>
+
+    <color name="teal500">#009688</color>
+    <color name="white">#ffffff</color>
+    <color name="off_white">#FAFAFA</color>
+    <color name="background">#E0E0E0</color>
+    <color name="indigo">#3F51B5</color>
+    <color name="blue">#03A7E9</color>
+    <color name="grey">#757575</color>
+    <color name="red">#ed2121</color>
+</resources>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:id="@+id/parent_layout"
+    android:padding="5dp"
+    android:layout_margin="5dp">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        card_view:cardElevation="10dp"
+        >
+        <FrameLayout
+            android:background="#8a24f1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imvThumbnailDiscoverList"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                 />
+            <!--android:src="@drawable/roadtrip"-->
+
+            <RelativeLayout
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="bottom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textStyle="bold"
+                    android:id="@+id/txtTitlelistdiscover"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="Exploring the Southwest"
+                    android:textColor="#f7f5f5"
+                    android:textSize="24sp" />
+                <TextView
+                    android:id="@+id/txtSubtitlelistdiscover"
+                    android:text="Doing it yourself!"
+                    android:textColor="#f7f5f5"
+                    android:textStyle="italic|bold"
+                    android:fontFamily="sans-serif"
+                    android:textSize="17sp"
+                    android:layout_below="@+id/txtTitlelistdiscover"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/txtPlaceDaylistdiscover"
+                    android:text="2 PLACE * 3 DAYS"
+                    android:textColor="#f7f5f5"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textSize="14sp"
+                    android:layout_below="@+id/txtSubtitlelistdiscover"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+
+            </RelativeLayout>
+
+
+
+
+        </FrameLayout>
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

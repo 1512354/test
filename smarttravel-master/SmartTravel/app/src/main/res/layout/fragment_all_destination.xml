@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:ignore="PrivateResource"
+    >
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.v7.widget.SearchView
+            android:id="@+id/svName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:background="#ffffff"
+            app:iconifiedByDefault="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:queryHint="Type to find"
+            />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/svName"
+            android:text="East Asia"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/tvEast"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_margin="16dp"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/tvEast"
+            android:text="HK AND MACAU"
+            android:id="@+id/tvHK"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_margin="25dp"/>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/tvHK"
+            android:text="TAIWAN"
+            android:id="@+id/tvTW"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_margin="25dp"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/tvTW"
+            android:text="JAPAN"
+            android:id="@+id/tvJP"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_margin="25dp"/>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/tvJP"
+            android:text="South East Asia"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/tvSouth"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_margin="16dp"/>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/tvSouth"
+            android:text="VIET NAM"
+            android:id="@+id/tvVN"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_margin="25dp"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/tvVN"
+            android:text="THAILAND"
+            android:id="@+id/tvTL"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_margin="25dp"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/tvTL"
+            android:text="North America"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/tvNorth"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_margin="16dp"/>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/tvNorth"
+            android:text="NEW YORK"
+            android:id="@+id/tvNewYork"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_margin="25dp"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/tvNewYork"
+            android:text="LOS ANGELES"
+            android:id="@+id/tvLos"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_margin="25dp"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/tvLos"
+            android:text="CHICAGO"
+            android:id="@+id/tvChi"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_margin="25dp"/>
+</android.support.constraint.ConstraintLayout>
+</ScrollView>
+</android.support.constraint.ConstraintLayout>
+

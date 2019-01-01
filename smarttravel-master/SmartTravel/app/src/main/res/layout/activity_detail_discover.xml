@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailDiscoverActivity">
+
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:id="@+id/coordinatorDiscoverDetail"
+        android:layout_height="wrap_content">
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/app_bar"
+            android:fitsSystemWindows="true"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:theme="@style/AppTheme.AppBarOverlay">
+            <android.support.design.widget.CollapsingToolbarLayout
+                android:id="@+id/toolbar_layout"
+                android:fitsSystemWindows="true"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_scrollFlags="scroll|exitUntilCollapsed"
+                app:contentScrim="?attr/colorPrimary"
+                app:titleEnabled="false">
+                <android.support.v7.widget.Toolbar
+                    android:id="@+id/toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    app:layout_collapseMode="pin"
+                    app:popupTheme="@style/AppTheme.PopupOverlay"
+                    app:title="@string/app_name" />
+            </android.support.design.widget.CollapsingToolbarLayout>
+        </android.support.design.widget.AppBarLayout>
+
+    </android.support.design.widget.CoordinatorLayout>
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/coordinatorDiscoverDetail">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <FrameLayout
+                android:id="@+id/framelayoutHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imvHeaderDiscover"
+                    android:layout_width="match_parent"
+                    android:layout_height="400dp"
+                    android:src="@drawable/canada"
+                    android:scaleType="centerCrop"
+                   />
+
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp">
+
+                    <TextView
+                        android:id="@+id/txtTitleHeaderdiscover"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-condensed"
+                        android:text="National Parks of the Canadian Rockies Westbound"
+                        android:textColor="#f7f5f5"
+                        android:textSize="32sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtSubtitleHeaderdiscover"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txtTitleHeaderdiscover"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="sans-serif"
+                        android:text="The Rockies are a great reason to explore the Canadian West!"
+                        android:textColor="#f7f5f5"
+                        android:textSize="18sp"
+                        android:textStyle="italic" />
+
+                    <TextView
+                        android:id="@+id/txtPlaceDaylistdiscover"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txtSubtitleHeaderdiscover"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:text="1 PLACE * 14 DAYS"
+                        android:textColor="#f7f5f5"
+                        android:textSize="17sp" />
+                </RelativeLayout>
+
+            </FrameLayout>
+            <android.support.v4.view.ViewPager
+                android:id="@+id/view_pager_image"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_below="@+id/framelayoutHeader"
+                android:layout_marginTop="20dp">
+
+            </android.support.v4.view.ViewPager>
+            <TextView
+                android:id="@+id/txtSwipetoseemoreimage"
+                android:layout_below="@+id/view_pager_image"
+                android:text="Swipe right to see more image"
+                android:textStyle="italic"
+                android:textSize="14sp"
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+            <RelativeLayout
+                android:layout_below="@+id/txtSwipetoseemoreimage"
+                android:id="@+id/relaContentDiscover"
+                android:layout_width="wrap_content"
+                android:layout_margin="15dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/txtIntroDiscover"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/intro_discover" />
+
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/txtwhatinclude"
+                    android:layout_width="wrap_content"
+                    android:textColor="#500be4"
+                    android:layout_marginBottom="5dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txtIntroDiscover"
+                    android:text="What's included" />
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/txtwhatincludecontent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txtwhatinclude"
+                    android:text="@string/what_include" />
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:textColor="#500be4"
+
+                    android:id="@+id/txtHighlights"
+                    android:layout_below="@+id/txtwhatincludecontent"
+                    android:layout_width="wrap_content"
+                    android:text="Highlights"
+                    android:layout_marginBottom="5dp"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/txtHighlightscontent"
+                    android:layout_width="wrap_content"
+                    android:layout_below="@+id/txtHighlights"
+                    android:text="@string/highlights"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/txtItinerary"
+                    android:layout_below="@+id/txtHighlightscontent"
+                    android:text="Itinerary"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="#500be4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/txtItinerarycontent"
+                    android:layout_below="@id/txtItinerary"
+                    android:layout_width="wrap_content"
+                    android:text="@string/itinerary_discover"
+                    android:layout_height="wrap_content" />
+
+
+
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AccountFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/layout1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#8a24f1">
+
+                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/profile_image"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_centerInParent="true"
+                    android:layout_margin="16dp"
+                    android:src="@drawable/art"
+                    app:civ_border_color="@color/colorAccent"
+                    app:civ_border_width="3dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/tvName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="22dp"
+                    android:text="TEO"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="teo@gmail.com"
+                    android:textSize="16dp"
+                    android:textStyle="italic"
+                    app:layout_constraintStart_toStartOf="@id/tvName"
+                    app:layout_constraintTop_toBottomOf="@id/tvName" />
+
+                <View
+                    android:id="@+id/view1"
+                    style="@style/divider_theme"
+                    app:layout_constraintTop_toBottomOf="@+id/profile_image" />
+
+            </android.support.constraint.ConstraintLayout>
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/layout2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/layout1">
+
+                <TextView
+                    android:id="@+id/tvAboutMe"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:text="@string/about_me_n_hello_world_n_my_name_is_teo"
+                    android:textStyle="italic"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <View
+                    android:id="@+id/view2"
+                    style="@style/divider_theme"
+                    android:layout_height="7dp"
+                    app:layout_constraintTop_toBottomOf="@+id/tvAboutMe" />
+
+                <Button
+                    android:id="@+id/btn1"
+                    android:layout_marginStart="16dp"
+                    android:layout_width="match_parent"
+                    android:textAlignment="textStart"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf= "@id/view2"
+                    android:background="@null"
+                    android:text="Vouchers"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="79dp" />
+
+                <View
+                    android:id="@+id/view3"
+                    style="@style/divider_theme"
+                    android:layout_margin="0dp"
+                    app:layout_constraintTop_toBottomOf="@+id/btn1" />
+
+                <Button
+                    android:id="@+id/btn2"
+                    android:textAlignment="textStart"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/view3"
+                    android:background="@null"
+                    android:text="Edit Profile"
+                    android:layout_marginStart="16dp"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="149dp" />
+
+                <View
+                    android:id="@+id/view4"
+                    style="@style/divider_theme"
+                    android:layout_margin="0dp"
+                    app:layout_constraintTop_toBottomOf="@+id/btn2" />
+
+                <Button
+                    android:id="@+id/btn3"
+                    android:textAlignment="textStart"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:background="@null"
+                    android:text="Notifications"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/view4" />
+
+                <View
+                    android:id="@+id/view5"
+                    style="@style/divider_theme"
+                    android:layout_margin="0dp"
+                    app:layout_constraintTop_toBottomOf="@+id/btn3" />
+
+                <Button
+                    android:id="@+id/btn4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:text="Help Center"
+                    android:textAlignment="textStart"
+                    android:layout_marginStart="16dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/view5"/>
+
+                <View
+                    android:id="@+id/view6"
+                    style="@style/divider_theme"
+                    android:layout_margin="0dp"
+                    app:layout_constraintTop_toBottomOf="@+id/btn4" />
+
+                <Button
+                    android:id="@+id/btn5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:background="@null"
+                    android:text="About"
+                    android:textAlignment="textStart"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/view6" />
+
+                <View
+                    android:id="@+id/view7"
+                    style="@style/divider_theme"
+                    android:layout_margin="0dp"
+                    app:layout_constraintTop_toBottomOf="@+id/btn5" />
+
+                <Button
+                    android:id="@+id/btn6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:background="@null"
+                    android:text="Logout"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/red"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/view7" />
+
+                <View
+                    android:id="@+id/view8"
+                    style="@style/divider_theme"
+                    android:layout_margin="0dp"
+                    app:layout_constraintTop_toBottomOf="@+id/btn6" />
+
+            </android.support.constraint.ConstraintLayout>
+
+        </android.support.constraint.ConstraintLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
